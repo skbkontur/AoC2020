@@ -1,0 +1,30 @@
+{
+  "name": "@skbkontur/aoc2020",
+  "version": "1.0.0",
+  "description": "Advent of Code 2020 solutions by SKB Kontur's developers",
+  "scripts": {
+    "start": "ts-node",
+    "format": "prettier --write --ignore-unknown src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skbkontur/AoC2020.git"
+  },
+  "keywords": [
+    "Advent of Code",
+    "SKB Kontur"
+  ],
+  "author": "SKB Kontur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skbkontur/AoC2020/issues"
+  },
+  "homepage": "https://github.com/skbkontur/AoC2020#readme",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.0",
+    "@types/node": "^14.14.10",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  }
+}
