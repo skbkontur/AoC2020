@@ -14,3 +14,10 @@ To run a specific puzzle:
 - Have fun!
 
 Note: some puzzles require user-specific input, it's either read from stdin, or hard-coded in the solution. Check the solution you're about to run to find out more
+
+## Santa's nice list
+
+- [vabka](https://github.com/vabka/aoc2020) [F#]
+- [nanot1m](https://github.com/nanot1m/adventofcode2020) [JS]
+- [nulladdict](https://github.com/nulladdict/aoc-2020) [Rust]
+- [floatdrop](https://github.com/floatdrop/aoc) [Rust]
