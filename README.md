@@ -18,6 +18,7 @@ Note: some puzzles require user-specific input, it's either read from stdin, or 
 ## Video (in Russian)
 
 1. [first day](https://www.youtube.com/watch?v=ETMtuM-M05o)
+2. [second day](https://www.youtube.com/watch?v=Kg5aTsjLxXc)
 
 ## Santa's nice list
 
