@@ -15,6 +15,10 @@ To run a specific puzzle:
 
 Note: some puzzles require user-specific input, it's either read from stdin, or hard-coded in the solution. Check the solution you're about to run to find out more
 
+## Video (in Russian)
+
+1. [first day](https://www.youtube.com/watch?v=ETMtuM-M05o)
+
 ## Santa's nice list
 
 - [vabka](https://github.com/vabka/aoc2020) [F#]
