@@ -8,13 +8,15 @@ async function calc() {
     .split("\n")
     .map(i => parseInt(i, 10)));
 
+  const values = new Set();
   for (let i = 0; i < input.length; i++) {
-    for (let j = i + 1; j < input.length; j++) {
-      for (let k = 0; k < input.length; k++) {
-        if (input[i] + input[j] + input[k] === YEAR) {
-          return input[i] * input[j] * input[k];
-        }
-      }
+    values.add(input[i]);
+  }
+  
+  for (let i = 0; i < input.length; i++) {
+    const diff = YEAR - input[i];
+    if (values.has(diff)) {
+      return input[i] * diff;
     }
   }
 }
