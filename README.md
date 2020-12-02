@@ -25,4 +25,5 @@ Note: some puzzles require user-specific input, it's either read from stdin, or 
 - [nanot1m](https://github.com/nanot1m/adventofcode2020) [JS]
 - [nulladdict](https://github.com/nulladdict/aoc-2020) [Rust]
 - [floatdrop](https://github.com/floatdrop/aoc) [Rust]
-- [spaceorc](https://github.com/spaceorc/aoc2020)
+- [beevee](https://github.com/beevee/advent2020) [Idris]
+- [spaceorc](https://github.com/spaceorc/aoc2020)[C#]
