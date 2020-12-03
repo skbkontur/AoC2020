@@ -28,3 +28,4 @@ Note: some puzzles require user-specific input, it's either read from stdin, or 
 - [floatdrop](https://github.com/floatdrop/aoc) [Rust]
 - [beevee](https://github.com/beevee/advent2020) [Idris]
 - [spaceorc](https://github.com/spaceorc/aoc2020) [C#]
+- [vakym](https://github.com/vakym/aoc2020.git) [C#]
