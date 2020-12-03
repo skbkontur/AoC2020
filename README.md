@@ -30,3 +30,4 @@ Note: some puzzles require user-specific input, it's either read from stdin, or 
 - [beevee](https://github.com/beevee/advent2020) [Idris]
 - [spaceorc](https://github.com/spaceorc/aoc2020) [C#]
 - [vakym](https://github.com/vakym/aoc2020.git) [C#]
+- [mazharenko](https://github.com/mazharenko/aoc2020) [F#]
