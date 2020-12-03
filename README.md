@@ -15,10 +15,11 @@ To run a specific puzzle:
 
 Note: some puzzles require user-specific input, it's either read from stdin, or hard-coded in the solution. Check the solution you're about to run to find out more
 
-## Video (in Russian)
+## Our journey (in Russian)
 
 1. [first day](https://www.youtube.com/watch?v=ETMtuM-M05o)
 2. [second day](https://www.youtube.com/watch?v=Kg5aTsjLxXc)
+3. [third day](https://www.youtube.com/watch?v=y8ADcBTnrNg)
 
 ## Santa's nice list
 
