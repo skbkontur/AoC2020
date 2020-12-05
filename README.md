@@ -33,3 +33,4 @@ Note: some puzzles require user-specific input, it's either read from stdin, or 
 - [spaceorc](https://github.com/spaceorc/aoc2020) [C#]
 - [vakym](https://github.com/vakym/aoc2020.git) [C#]
 - [mazharenko](https://github.com/mazharenko/aoc2020) [F#]
+- [xoposhiy](https://github.com/xoposhiy/AoC2020) [Python]
