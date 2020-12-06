@@ -36,3 +36,4 @@ Note: some puzzles require user-specific input, it's either read from stdin, or 
 - [xoposhiy](https://github.com/xoposhiy/AoC2020) [Python]
 - [razdva122](https://github.com/Razdva122/Advent-of-code-2020) [TS]
 - [AxelUser](https://github.com/AxelUser/AdventOfCode2020) [C#]
+- [pankdm](https://github.com/pankdm/adventofcode-2020) [Rust]
