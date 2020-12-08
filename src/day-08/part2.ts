@@ -1,4 +1,4 @@
-import { readToString } from "../../stdin";
+import { readToString } from "../stdin";
 
 interface State {
     accumulator: number;

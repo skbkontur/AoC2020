@@ -1,4 +1,4 @@
-import { readToString } from "../../stdin";
+import { readToString } from "../stdin";
 
 async function run() {
     const lines = await readToString().then(res => res.trim().split(/\r?\n/))
