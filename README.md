@@ -24,6 +24,8 @@ Note: some puzzles require user-specific input, it's either read from stdin, or 
 5. [fifth day](https://www.youtube.com/watch?v=UyGe_FQa5YQ)
 6. [sixth day](https://www.youtube.com/watch?v=x2Pe-bDR_nc)
 7. [seventh day](https://www.youtube.com/watch?v=lrQ8b5CewRs)
+8. [eighth day](https://www.youtube.com/watch?v=mTdHaH_Scvk)
+9. [nineth day](https://www.youtube.com/watch?v=4ngb1yp5rjM)
 
 ## Santa's nice list
 
