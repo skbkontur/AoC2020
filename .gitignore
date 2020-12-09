@@ -106,7 +106,12 @@ dist
 # IDE settings
 /.idea/
 /.vscode/
+/.vs/
 
 # MacOS generated files
 .DS_Store
 .DS_Store?
+
+# C sharp build output
+bin/
+obj/
