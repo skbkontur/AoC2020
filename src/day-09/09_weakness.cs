@@ -16,37 +16,39 @@ var slice = GetSliceWithSum(numbers, invalidNumber);
 var answer = slice.Min() + slice.Max(); // Math.min(...slice) + Math.max(...slice)
 Console.WriteLine($"Part Two: {answer}");
 
+
 long GetInvalidNumber(List<long> numbers, int preludeSize)
 {
     //                  window
     // numbers: 1 2 3 [4 5 6 7 8] 9 10 ...
     
-    var window = new Queue<long>();
-    foreach (var n in numbers)
+    var window = new Queue<long>(); // window: number[] = []
+    foreach (var n in numbers)      // for...of
     {
         if (window.Count == preludeSize)
         {
             if (!IsSum(n, window)) 
                 return n;
-            window.Dequeue();
+            window.Dequeue(); // window.shift()
         }
-        window.Enqueue(n);
+        window.Enqueue(n); // window.push(n)
     }
     throw new Exception("no weakness");
 }
 
 bool IsSum_Naïve(long targetSum, IReadOnlyCollection<long> window)
 {
-    // O(window_size²)
-    // 25*25 = 625
-    foreach (var a in window) // for of
+    foreach (var a in window)
         foreach (var b in window)
             if (b == targetSum - a)
                 return true;
     return false;
+    
+    // O(window_size²)
+    // 25*25 = 625
 }
 
-bool IsSum_Better(long targetSum, IReadOnlyCollection<long> window)
+bool IsSum_WithSet(long targetSum, IReadOnlyCollection<long> window)
 {
     // O(window_size)
     var set = window.ToHashSet(); // const set = new Set(window)
@@ -58,31 +60,27 @@ bool IsSum_Better(long targetSum, IReadOnlyCollection<long> window)
 
 bool IsSum_Linq(long targetSum, IReadOnlyCollection<long> window)
 {
-    // O(window_size)
     var set = window.ToHashSet();
     return window.Any(a => set.Contains(targetSum - a)); // window.some(...)
 }
 
 bool IsSum(long targetSum, IReadOnlyCollection<long> window)
 {
-    // O(window_size)
     var set = window.ToHashSet();
-    return window.Any(a => a != targetSum - a && set.Contains(targetSum - a)); // window.some(...)
+    return window.Any(a => a != targetSum - a && set.Contains(targetSum - a));
 }
 
 IReadOnlyCollection<long> GetSliceWithSum_Idea(List<long> numbers, long targetSum)
 {
     // targetSum = 8
-    // [] 1 2 3 4 3 1 10
-
+    // numbers: 1 2 3 [ 4 3 1 ] 10
     var slice = new Queue<long>(); // slice: number[] = []
     foreach (var num in numbers)
     {
         slice.Enqueue(num); // slice.push(num)
-        var sum = slice.Sum(); // slice.reduce((acc, x) => acc+x))
-        while (sum > targetSum) 
+        while (slice.Sum() > targetSum) // slice.reduce((acc, x) => acc+x))
             slice.Dequeue(); // slice.shift()
-        if (sum == targetSum && slice.Count > 1)
+        if (slice.Sum() == targetSum && slice.Count > 1)
             return slice;
     }
     throw new Exception("no weakness");
