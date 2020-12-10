@@ -26,6 +26,7 @@ Note: some puzzles require user-specific input, it's either read from stdin, or 
 7. [seventh day](https://www.youtube.com/watch?v=lrQ8b5CewRs)
 8. [eighth day](https://www.youtube.com/watch?v=mTdHaH_Scvk)
 9. [nineth day](https://www.youtube.com/watch?v=4ngb1yp5rjM)
+10. [tenth day](https://www.youtube.com/watch?v=kckDA5jft8E)
 
 ## Santa's nice list
 
@@ -41,3 +42,4 @@ Note: some puzzles require user-specific input, it's either read from stdin, or 
 - [razdva122](https://github.com/Razdva122/Advent-of-code-2020) [TS]
 - [AxelUser](https://github.com/AxelUser/AdventOfCode2020) [C#]
 - [pankdm](https://github.com/pankdm/adventofcode-2020) [Rust]
+- [igorlukanin](https://github.com/igorlukanin/advent-of-code) [Kotlin]
