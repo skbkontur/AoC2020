@@ -27,6 +27,10 @@ Note: some puzzles require user-specific input, it's either read from stdin, or 
 8. [eighth day](https://www.youtube.com/watch?v=mTdHaH_Scvk)
 9. [nineth day](https://www.youtube.com/watch?v=4ngb1yp5rjM)
 10. [tenth day](https://www.youtube.com/watch?v=kckDA5jft8E)
+11. [eleventh day #1](https://www.youtube.com/watch?v=sXP2Glf1u1M), [eleventh day #2](https://www.youtube.com/watch?v=lmIlB-4i_c0)
+12. [twelfth day](https://www.youtube.com/watch?v=KZTKXT-2Kns)
+13. [thirteenth day](https://www.youtube.com/watch?v=0B0zWyirtnk)
+14. [fourteenth day](https://www.youtube.com/watch?v=x_pDR-Xyv2Q)
 
 ## Santa's nice list
 
