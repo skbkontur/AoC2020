@@ -1,12 +1,13 @@
 # AoC2020
 
-[Advent of Code 2020](https://adventofcode.com/2020) solutions by SKB Kontur's developers
+[Advent of Code 2020](https://adventofcode.com/2020) solutions by SKB Kontur's (and other companies) developers
 
-All code is written in TypeScript, targeting Node v14 or later
+All code written in TypeScript are targeting Node v14 or later.
+Some solutions are written in C#, Python, Java, Kotlin, Zig and other languages.
 
-Puzzle solutions are located in the `src` directory, separated by day and part
+Puzzle solutions are located in the `src` directory, separated by day and part.
 
-To run a specific puzzle:
+To run a specific puzzle written in TypeScript:
 
 - [Install](https://nodejs.org/en/download/) Node v14 or later
 - Run `npm i` in the root directory
@@ -33,6 +34,7 @@ Note: some puzzles require user-specific input, it's either read from stdin, or 
 14. [fourteenth day](https://www.youtube.com/watch?v=x_pDR-Xyv2Q)
 15. [fifteen day](https://www.youtube.com/watch?v=AqygTmx0-ek)
 16. [sixteen day](https://www.youtube.com/watch?v=ytpWst8s2zk)
+19. [nineteen day](https://www.youtube.com/watch?v=PHB2XryV0HM)
 
 ## Santa's nice list
 
