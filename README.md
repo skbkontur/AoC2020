@@ -33,6 +33,7 @@ Note: some puzzles require user-specific input, it's either read from stdin, or 
 14. [fourteenth day](https://www.youtube.com/watch?v=x_pDR-Xyv2Q)
 15. [fifteen day](https://www.youtube.com/watch?v=AqygTmx0-ek)
 16. [sixteen day](https://www.youtube.com/watch?v=ytpWst8s2zk)
+19. [nineteen day](https://www.youtube.com/watch?v=PHB2XryV0HM)
 
 ## Santa's nice list
 
