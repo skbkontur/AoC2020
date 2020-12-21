@@ -32,9 +32,13 @@ Note: some puzzles require user-specific input, it's either read from stdin, or 
 12. [twelfth day](https://www.youtube.com/watch?v=KZTKXT-2Kns)
 13. [thirteenth day](https://www.youtube.com/watch?v=0B0zWyirtnk)
 14. [fourteenth day](https://www.youtube.com/watch?v=x_pDR-Xyv2Q)
-15. [fifteen day](https://www.youtube.com/watch?v=AqygTmx0-ek)
-16. [sixteen day](https://www.youtube.com/watch?v=ytpWst8s2zk)
-19. [nineteen day](https://www.youtube.com/watch?v=PHB2XryV0HM)
+15. [fifteenth day](https://www.youtube.com/watch?v=AqygTmx0-ek)
+16. [sixteenth day](https://www.youtube.com/watch?v=ytpWst8s2zk)
+17. [seventeenth day](https://www.youtube.com/watch?v=h1GlJNKWRqg&list)
+18. [eighteenth day](https://www.youtube.com/watch?v=jLq4bzEUqBM&list)
+19. [nineteenth day](https://www.youtube.com/watch?v=PHB2XryV0HM)
+20. [twentieth day]()
+21. [twenty first](https://www.youtube.com/watch?v=YmC0Hlz5vhk&list)
 
 ## Santa's nice list
 
