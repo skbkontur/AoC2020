@@ -10,20 +10,20 @@ var inp = File.ReadAllLines("22.txt");
 int[] cards1 = inp.TakeWhile(s => s != "").Skip(1).Select(int.Parse).ToArray();
 int[] cards2 = inp.SkipWhile(s => s != "").Skip(2).Select(int.Parse).ToArray();
 
-Console.WriteLine($"Part One: {PlayPart1Game(cards1, cards2)}");
+Console.WriteLine($"Part One: {PlayCombat(cards1, cards2)}");
 Console.WriteLine();
 
 var sw = Stopwatch.StartNew();
-Console.WriteLine("Part Two: " + PlayPart2Game(cards1, cards2));
+Console.WriteLine("Part Two: " + PlayRecursiveCombat(cards1, cards2));
 Console.WriteLine(sw.Elapsed);
 Console.WriteLine();
 
 sw.Restart();
-Console.WriteLine("Part Two (with hashing): " + Play2_WithHashing(cards1, cards2));
+Console.WriteLine("Part Two (with hashing): " + PlayRecursiveCombat_WithHashing(cards1, cards2));
 Console.WriteLine(sw.Elapsed);
 
 
-long PlayPart1Game(IEnumerable<int> deck1cards, IEnumerable<int> deck2cards)
+long PlayCombat(IEnumerable<int> deck1cards, IEnumerable<int> deck2cards)
 {
     var deck1 = new Queue<int>(deck1cards);
     var deck2 = new Queue<int>(deck2cards);
@@ -40,7 +40,7 @@ long PlayPart1Game(IEnumerable<int> deck1cards, IEnumerable<int> deck2cards)
 }
 
 
-(int winner, long score) PlayPart2Game(IEnumerable<int> deck1cards, IEnumerable<int> deck2cards)
+(int winner, long score) PlayRecursiveCombat(IEnumerable<int> deck1cards, IEnumerable<int> deck2cards)
 {
     var deck1 = new Queue<int>(deck1cards);
     var deck2 = new Queue<int>(deck2cards);
@@ -49,7 +49,7 @@ long PlayPart1Game(IEnumerable<int> deck1cards, IEnumerable<int> deck2cards)
     int GetRoundWinner(int card1, int card2)
     {
         if (card1 <= deck1.Count && card2 <= deck2.Count)
-            return PlayPart2Game(deck1.Take(card1), deck2.Take(card2)).winner;
+            return PlayRecursiveCombat(deck1.Take(card1), deck2.Take(card2)).winner;
         return card1 > card2 ? 1 : 2;
     }
 
@@ -68,7 +68,7 @@ long PlayPart1Game(IEnumerable<int> deck1cards, IEnumerable<int> deck2cards)
     return (winner: deck1.Any() ? 1 : 2, GetWinnerScore(deck1, deck2));
 }
 
-(int winner, long score) Play2_WithHashing(IEnumerable<int> deck1cards, IEnumerable<int> deck2cards)
+(int winner, long score) PlayRecursiveCombat_WithHashing(IEnumerable<int> deck1cards, IEnumerable<int> deck2cards)
 {
     var deck1 = new HashQueue(deck1cards);
     var deck2 = new HashQueue(deck2cards);
@@ -77,7 +77,7 @@ long PlayPart1Game(IEnumerable<int> deck1cards, IEnumerable<int> deck2cards)
     int GetRoundWinner(int card1, int card2)
     {
         if (card1 <= deck1.Count && card2 <= deck2.Count)
-            return Play2_WithHashing(deck1.Take(card1), deck2.Take(card2)).winner;
+            return PlayRecursiveCombat_WithHashing(deck1.Take(card1), deck2.Take(card2)).winner;
         return card1 > card2 ? 1 : 2;
     }
 
