@@ -40,6 +40,7 @@ For other languages you might just have to google language setup process :)
 19. [nineteenth day](https://www.youtube.com/watch?v=PHB2XryV0HM)
 20. [twentieth day]()
 21. [twenty first](https://www.youtube.com/watch?v=YmC0Hlz5vhk&list)
+24. [twenty fourth day](https://www.youtube.com/watch?v=E5E5Z2rgSz4)
 
 ## Santa's nice list
 
