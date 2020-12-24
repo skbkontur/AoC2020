@@ -2,7 +2,7 @@
 
 [Advent of Code 2020](https://adventofcode.com/2020) solutions by SKB Kontur's (and other companies) developers
 
-All code written in TypeScript are targeting Node v14 or later.
+Earlier code is written in TypeScript, targeting Node v14 or later.  
 Some solutions are written in C#, Python, Java, Kotlin, Zig and other languages.
 
 Puzzle solutions are located in the `src` directory, separated by day and part.
@@ -14,7 +14,8 @@ To run a specific puzzle written in TypeScript:
 - Run `npm start -- src/day-01/part1.ts` or specify a different day and part
 - Have fun!
 
-Note: some puzzles require user-specific input, it's either read from stdin, or hard-coded in the solution. Check the solution you're about to run to find out more
+Note: some puzzles require user-specific input, it's either read from stdin, or hard-coded in the solution.  
+For other languages you might just have to google language setup process :)
 
 ## Our journey (in Russian)
 
